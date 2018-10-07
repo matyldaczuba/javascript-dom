@@ -14,7 +14,7 @@ let allLinks = document.getElementsByClassName("link");
 
 allLinks[1].href = "https://www.google.pl/";
 
-allLinks[1].className = "google-link" // zamienia nazwe klasy
+allLinks[1].classList.add("google-link");  // dodaje nowa nazwe klasy
 
 allLinks[1].classList.add("fa");
 
